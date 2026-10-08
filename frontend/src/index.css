@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background: #fbf9f4;
+  color: #334155;
+  font-family: system-ui, sans-serif;
+}
+
+/* Na hora de imprimir o relatório, esconde menus e botões */
+@media print {
+  .nao-imprimir { display: none !important; }
+}
